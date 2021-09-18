@@ -29,11 +29,12 @@ class App extends React.Component {
 
   render(){
     return (
-      <div>
+      <div id="container">
         < ListBeers arrayOfBeers={this.state.arrayOfBeers} />
       </div>
      )
   };
 };
+
 
 export default App;

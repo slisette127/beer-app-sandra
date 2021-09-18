@@ -6,9 +6,11 @@ export default function BeerCard(props) {
         <div>
             <li key={props.index}>
                 <img src={props.image_url} alt="beer" style={{height: "200px"}}></img>
-                <h3>{props.name}</h3>
-                <p>{props.tagline}</p>
+                <h1>{props.name}</h1>
+                <h2>{props.tagline}</h2>
+                <p>{props.description}</p>
             </li>
         </div>
+        
     )
 }
